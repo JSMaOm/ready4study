@@ -20,7 +20,6 @@ body {
     height: 365px;
     background: linear-gradient(#2d4368, #2d4268, #385066, #415c63, #4b6a61, #537256, #557553, #58784e, #5a7a4b, #5c7c47);
     text-align: center;
-    margin-bottom: 30px
 }
 
 .underline::after {
@@ -41,6 +40,12 @@ body {
     padding-top: 60px;
     font-weight: bold;
     margin-top: 0;
+}
+
+.banner h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .banner-select {
@@ -109,6 +114,8 @@ body {
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
