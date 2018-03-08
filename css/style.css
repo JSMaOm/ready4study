@@ -130,6 +130,8 @@ hr {
 }
 
 .result {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 1px solid #eee;
     border-radius: 5px;
@@ -165,8 +167,12 @@ hr {
 }
 
 .result-university {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color:#3c763d;    
 }
 
@@ -190,6 +196,8 @@ hr {
 }
 
 .pagination ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -204,6 +212,8 @@ hr {
     display: inline-block;
     padding: 6px 12px;
     border-right: 1px solid #ddd;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
     transition: all .3s;
 }
 
