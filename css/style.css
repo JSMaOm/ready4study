@@ -9,12 +9,24 @@
 body {
     font-family: Arial;
     font-size: 16px;
+    font-weight: 300;
     line-height: 23px;
     color: #131313;
     font-family: 'Roboto', sans-serif;
     margin: 0
 }
 /*----------------------------------*/
+hr {
+    color: #777;
+    margin-bottom: 20px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc82;
+    margin: 20px 0;
+    padding: 0;
+}
+
 .banner {
     width: 100%;
     height: 365px;
@@ -109,7 +121,109 @@ body {
     background-color: #FFF;
     border: 1px solid #2f4a93
 }
+/*----------------------------------*/
 
+/*Academice Programs*/
+
+.acaprogram {
+    padding: 30px 0;
+}
+
+.result {
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.result-image {
+    width: 20%;
+    border-right: 1px solid #eee;
+    padding: 20px;
+}
+
+.result-image img {
+    width: 190px;
+    height: 190px;
+}
+
+.result-text {
+    padding: 20px;
+}
+
+.result-text img {
+    width: 30px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.result-text h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2f4993;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.result-university {
+    display: flex;
+    align-items: center;
+    color:#3c763d;    
+}
+
+.result-text .result-university div {
+    display: inline-block;
+}
+
+.result-text a {
+    font-weight: 400;
+}
+
+.result-text a:hover {
+    color: #edb730;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.pagination ul {
+    display: flex;
+}
+
+.pagination li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li a {
+    color: #23527c;
+    display: inline-block;
+    padding: 6px 12px;
+    border-right: 1px solid #ddd;
+    transition: all .3s;
+}
+
+.pagination li:last-child a {
+    border-right: none;
+}
+
+.pagination li:nth-child(3) a {
+    color: #fff;
+    background-color: #2f4a93;
+}
+
+.pagination li:nth-child(3) a:hover {
+    background-color: #337ab7;
+    cursor: default;
+}
+
+.pagination li a:hover {
+    background-color: #eee;
+}
 /*----------------------------------*/
 
 ul {
@@ -266,9 +380,9 @@ footer {
 
 }
 
-.white div.container {
+div.container {
     max-width: 1170px;
-    margin: 6px auto;
+    margin: 0 auto;
 }
 
 .white div.footer-title {
