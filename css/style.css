@@ -500,7 +500,7 @@ ol {
     margin-bottom: 10px;
 }
 
-.faq {
+.faq-1 {
     width: 100%;
     padding: 5px 10px;
     background-color: #eee;
@@ -508,20 +508,20 @@ ol {
     margin-bottom: 33px;
 }
 
-.faq:last-child {
+.faq-1:last-child {
     margin-bottom: 0;
 }
 
-.faq p {
+.faq-1 p {
     margin-bottom: 10px;
     margin-top: 0;
 }
 
-.faq p:first-child {
+.faq-1 p:first-child {
     font-weight: 500;
 }
 
-.faq ol {
+.faq-1 ol {
     margin-top: 0;
     margin-bottom: 10px;
 }
